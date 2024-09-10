@@ -67,3 +67,4 @@ console.log(flecha2(5));
 const flechaVP = (num1, num2) => console.log(num1 + num2);
 
 flechaVP(10, 30);
+
