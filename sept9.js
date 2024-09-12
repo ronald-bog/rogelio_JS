@@ -54,8 +54,3 @@ const numerosB = [21, 88, 65];
 numerosB.forEach(z => console.log(z + 100));
 
 
-// Map
-// Reduce
-// filter
-// find
-
