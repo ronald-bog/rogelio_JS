@@ -1,19 +1,19 @@
 // prompt
 
-// let nombre = parseInt(prompt('Dame tu nombre'));
+let numero = parseInt(prompt('Dame un numero'));
 
-// console.log(typeof nombre);
+console.log(numero);
 
 // // alert
-// alert(nombre);
+alert(numero);
 
 // console.log('LINEA DESPUES DEL PROMPT');
 
 // while 
 
-let contador = 1;
+/* let contador = 1;
 
 while (contador < 5) {
     console.log(contador);
     contador++;
-}
+} */

@@ -18,7 +18,3 @@ const cityFilter = ciudades.filter(ciudad => ciudad.startsWith('B'));
 const filter = ciudades.filter(ciudad => ciudad[0] === 'B');
 
 console.log(filter);
-
-// Reduce
-
-// find
