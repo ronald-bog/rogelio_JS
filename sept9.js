@@ -52,5 +52,13 @@ console.log('*********************');
 const numerosB = [21, 88, 65];
 
 numerosB.forEach(z => console.log(z + 100));
+console.log('*********************');
 
+const numerosC = [20, 100, 40, 5, 2000];
+
+numerosA.forEach(numero => console.log(numero));
+
+numerosA.forEach(function(numero){
+    console.log(numero)
+})
 

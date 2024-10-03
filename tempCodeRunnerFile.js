@@ -1,23 +1,8 @@
-
-const user = {
-    id: 2056,
-    name: 'Carlos',
-    password: 'hfi5lwyhi'
+let sumar2 = (a, b) => {
+    op1 = a + a;
+    op2 = b + b;
+    return op1 + op2;
 };
 
-function validar(objeto) {
-    const { id: i, name: nombre, password: pass } = objeto;
-    console.log(i, nombre, pass);
-}
 
-//validar(user);
-
-function valida({ id, name, password }) {
-    console.log(id, name, password);
-}
-
-//valida(user);
-
-const validador = ({ id, name, password }) => console.log(id, name, password);
-
-validador(user);
+console.log(sumar2(2, 3));

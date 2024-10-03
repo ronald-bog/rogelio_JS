@@ -68,3 +68,18 @@ const flechaVP = (num1, num2) => console.log(num1 + num2);
 
 flechaVP(10, 30);
 
+
+
+function sumar(a, b) {
+    return a + b;
+}
+
+let sumar2 = (a) => {
+    op1 = a + a;
+    return op1 + op1;
+};
+
+
+
+
+console.log(sumar2(2, 3));
