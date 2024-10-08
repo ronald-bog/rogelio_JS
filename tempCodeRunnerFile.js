@@ -1,8 +1,8 @@
-let sumar2 = (a, b) => {
-    op1 = a + a;
-    op2 = b + b;
-    return op1 + op2;
-};
 
+function describir(nombre, edad, ...hobbies) {
+    console.log(`Nombre: ${nombre}`);
+    console.log(`Edad: ${edad}`);
+    console.log(`Sus Hobbies: ${hobbies}`);
+}
 
-console.log(sumar2(2, 3));
+describir('Juan', 30, 'leer', 'viajar', 'cine', 'programar', 'gym');
