@@ -1,8 +1,4 @@
+const persona1 = { nombre: 'Juan', edad: 30 };
+const persona2 = { ...persona1 };
 
-function describir(nombre, edad, ...hobbies) {
-    console.log(`Nombre: ${nombre}`);
-    console.log(`Edad: ${edad}`);
-    console.log(`Sus Hobbies: ${hobbies}`);
-}
-
-describir('Juan', 30, 'leer', 'viajar', 'cine', 'programar', 'gym');
+console.log(persona2);

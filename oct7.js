@@ -46,10 +46,10 @@ console.log(edad(10));
 //! Operador Rest (...)
 
 function varios(...args) {
-    return args.reduce((acc, ele) => acc + ele, 10000);;
+    return args.reduce((acc, ele) => acc + ele);
 }
 
-const resultadoVarios = varios(2, 5, 6, 10, 8, 500, 56, 1000, 2000);
+const resultadoVarios = varios(2, 5, 6, 10, 8, 500, 56, 1000, 2000, 500);
 console.log(resultadoVarios);
 
 
@@ -67,3 +67,5 @@ function describir(nombre, edad, ...hobbies) {
 }
 
 describir('Juan', 30, 'leer', 'viajar', 'cine', 'programar', 'gym');
+
+
